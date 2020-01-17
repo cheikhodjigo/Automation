@@ -17,8 +17,8 @@ What the algorithm will do is find files corresponding to:
 
 ## Usage
 
-To execute the script you will need to give him the origin folder (in our case ~/Downlods) and the destination 
-one (~/Documents) just like this: 
+To execute the script you will need to give him the origin folder and the destination 
+one just like this: 
 
 `./organize ~/origin/path ~/Destination/path`
 
