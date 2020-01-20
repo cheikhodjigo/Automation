@@ -17,10 +17,10 @@ What the algorithm will do is find files corresponding to:
 
 Also it will look for the name of the file that is supposed to be a map.
 The syntax supported for now is A_B_C.* it will then store the file following this scheme belows:
-`A/
-|
---B/
-  |
+`A/ <br>
+| <br>
+--B/<br>
+  |<br>
   --A_B_C.*`
 Where A is the name of the parent directory, B the name of destination directory and C the name of the file.
 
