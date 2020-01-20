@@ -15,8 +15,8 @@ class MyFileToMove(MyFile):
         shutil.move(self.filePath, self.destination)
         print(self.filename + " moved to : " + self.destination)
 
-    def setDestination(self, destination):
-        parentDirectories = self.filename.split('_', 2)
+    def setDestination(self, destination, deptOfDirectory=2):
+        parentDirectories = self.filename.split('_', deptOfDirectory)
         parentDirectories_size = len(parentDirectories)
         if parentDirectories_size > 1:
             del parentDirectories[parentDirectories_size-1]
