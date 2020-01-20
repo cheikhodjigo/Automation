@@ -11,7 +11,11 @@ if(len(sys.argv) != 3):
     sys.exit(1)
 
 if not (os.path.isdir(sys.argv[1])):
-    print("This directory doesn't exists !")
+    print("This directory(%s) doesn't exists !" % sys.argv[1])
+    sys.exit(2)
+
+if not (os.path.isdir(sys.argv[2])):
+    print("This directory(%s) doesn't exists !" % sys.argv[2])
     sys.exit(2)
 
 directoryPath = sys.argv[1] 
