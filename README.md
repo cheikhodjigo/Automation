@@ -14,13 +14,14 @@ What the algorithm will do is find files corresponding to:
 - An image and stores them into Images/
 - A video and stores them into Videos/
 - etc.
+
 Also it will look for the name of the file that is supposed to be a map.
 The syntax supported for now is A_B_C.* it will then store the file following this scheme belows:
-A/
+`A/
 |
 --B/
   |
-  --A_B_C.*
+  --A_B_C.*`
 Where A is the name of the parent directory, B the name of destination directory and C the name of the file.
 
 ## Usage
